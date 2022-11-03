@@ -1,0 +1,5 @@
+def sat():
+    print(a, 'from', b ,c)
+    
+a,b,c=map(str,input().split())
+sat()
