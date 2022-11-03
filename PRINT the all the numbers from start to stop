@@ -1,0 +1,5 @@
+def sat(a,b):
+    for i in range(a,b+1):
+        print(i,end=' ')
+x,y=map(int,input().split())
+sat(x,y)
