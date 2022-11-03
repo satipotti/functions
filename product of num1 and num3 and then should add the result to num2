@@ -1,0 +1,4 @@
+def sat(a,b,c):
+    print((a*c)+b)
+a,b,c=map(int,input().split())
+sat(a,b,c)
