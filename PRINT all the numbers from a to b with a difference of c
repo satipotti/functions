@@ -1,0 +1,5 @@
+def sss(a,b,c):
+    for i in range(a,b+1,c):
+        print(i,end=' ')
+a,b,c=map(int,input().split())
+sss(a,b,c)
